@@ -1,10 +1,15 @@
 # VR Automation Testing 3-Month Learning Plan
 
-**Goal:** Go from zero to being able to design and run automated test suites for VR applications - functional, UI/interaction, performance, and regression testing - across engine-level (Unity/Unreal), device-level (Android/Quest), and browser-level (WebXR) targets.
+**Goal:** Go from zero to being able to design and run automated test suites for VR applications:
+[ ] Functional
+[ ] UI/interaction
+[ ] Performance, and 
+[ ] Regression testing
+across engine-level (Unity/Unreal), device-level (Android/Quest), and browser-level (WebXR) targets.
 
 **Format:** 30–45 min on weekdays (reminder set for 11:00 AM, Mon–Fri). Weekends are optional catch-up/reading days - no new material introduced then.
 
-**Hardware note:** You do **not** need a VR headset for Months 1–2. Simulators (Unity XR Device Simulator, WebXR browser emulators) cover almost everything. A real headset (or borrowed one) becomes genuinely useful in Month 3 for on-device validation. If you never get one, the capstone can be fully completed in WebXR + Unity Editor simulation.
+**Hardware note:** VR headset is not required for Months 1–2. Simulators (Unity XR Device Simulator, WebXR browser emulators) cover almost everything. A real headset becomes genuinely useful in Month 3 for on-device validation. Even without a headset, the capstone can be fully completed in WebXR + Unity Editor simulation.
 
 ---
 
@@ -13,18 +18,18 @@
 | Category | Tool | Notes |
 |---|---|---|
 | Game engine | **Unity Personal** | Free tier, includes XR Interaction Toolkit |
-| Game engine (alt.) | **Godot 4 + Godot XR Tools** | Fully open-source alternative if you prefer avoiding Unity's ToS |
+| Game engine (alt.) | **Godot 4 + Godot XR Tools** | Fully open-source alternative if avoiding Unity's ToS |
 | Game engine (alt.) | **Unreal Engine** | Free, VR template included |
 | No-headset VR testing | **Unity XR Device Simulator** | Simulates headset + controllers with mouse/keyboard in-editor |
 | WebXR framework | **A-Frame** | Open-source, runs in any browser, no install |
 | WebXR emulator | **Immersive Web Emulator** (Chrome/Edge extension, by Meta) | Simulates a headset in devtools - no hardware needed |
-| Web automation | **Playwright** (free, open-source) | Automates browser-based WebXR/A-Frame scenes |
-| Web automation (alt.) | **Selenium** | Older but still widely used; good to know both |
-| Mobile/device automation | **Appium** (free, open-source) | Drives Android-based headsets (Quest runs Android) via UIAutomator2/Espresso drivers |
-| Image-based automation | **Airtest Project** (NetEase, free, open-source) | Screenshot/image-recognition-based automation - works even when there's no accessible UI tree, common in VR |
+| Web automation | **Playwright** | Automates browser-based WebXR/A-Frame scenes |
+| Web automation (alt.) | **Selenium** | Web-automation |
+| Mobile/device automation | **Appium** | Drives Android-based headsets (Quest runs Android) via UIAutomator2/Espresso drivers |
+| Image-based automation | **Airtest Project** (NetEase) | Screenshot/image-recognition-based automation - works even when there's no accessible UI tree, common in VR |
 | Conformance/standards testing | **OpenXR SDK + Conformance Test Suite** (Khronos, free, open-source) | Industry-standard XR API test suite |
 | Sideloading/device testing | **SideQuest** (free) | Install/test unsigned APKs on Quest hardware |
-| Device diagnostics | **Meta Quest Developer Hub (MQDH)** (free, needs Meta dev account, not needed hardware) | Logs, performance capture, device management |
+| Device diagnostics | **Meta Quest Developer Hub (MQDH)** (free, needs Meta dev account, no hardware) | Logs, performance capture, device management |
 | CI/CD | **GitHub Actions** (free tier: 2,000 min/month private, unlimited public repos) | Automate test runs on push |
 | 3D asset creation | **Blender** (free) | Build simple test scenes/props if needed |
 | Version control | **Git + GitHub** (free) | Portfolio hosting for your capstone |
@@ -36,7 +41,7 @@
 **Theme:** Understand VR fundamentals, testing fundamentals, and get comfortable building/running a basic VR scene without a headset.
 
 ### Week 1: Testing fundamentals + VR concepts
-- Automation testing fundamentals refresher: test pyramid, functional vs. non-functional testing, flaky tests, test data management (skip if you already have a QA background)
+- Automation testing fundamentals refresher: test pyramid, functional vs. non-functional testing, flaky tests, test data management (skip as QA background)
 - VR-specific concepts: 6DOF vs 3DOF, degrees of freedom, locomotion types (teleport, smooth), UI raycasting/pointer interaction, comfort/motion sickness as a *testable* quality attribute
 - **Task:** Install Unity Personal + XR Interaction Toolkit. Open a sample VR scene and interact with it using the **XR Device Simulator** (no headset).
 
