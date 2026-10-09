@@ -5,6 +5,7 @@
 - [ ] UI/interaction
 - [ ] Performance, and 
 - [ ] Regression testing
+
 across engine-level (Unity/Unreal), device-level (Android/Quest), and browser-level (WebXR) targets.
 
 **Format:** 30–45 min on weekdays (reminder set for 11:00 AM, Mon–Fri). Weekends are optional catch-up/reading days - no new material introduced then.
