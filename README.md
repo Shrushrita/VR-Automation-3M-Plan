@@ -16,7 +16,7 @@ across engine-level (Unity/Unreal), device-level (Android/Quest), and browser-le
 
 ## Free Platforms & Tools You'll Use (all Free)
 
-| ☑️/⛔| Category | Tool | Notes |
+|  | Category | Tool | Notes |
 |---|---|---|---|
 | ⛔ | Game engine | **Unity Personal** | Free tier, includes XR Interaction Toolkit |
 | ⛔ | Game engine (alt.) | **Godot 4 + Godot XR Tools** | Fully open-source alternative if avoiding Unity's ToS |
