@@ -32,8 +32,8 @@ across engine-level (Unity/Unreal), device-level (Android/Quest), and browser-le
 |- [ ] | Sideloading/device testing | **SideQuest** (free) | Install/test unsigned APKs on Quest hardware |
 |- [ ] | Device diagnostics | **Meta Quest Developer Hub (MQDH)** (free, needs Meta dev account, no hardware) | Logs, performance capture, device management |
 |- [ ] | CI/CD | **GitHub Actions** (free tier: 2,000 min/month private, unlimited public repos) | Automate test runs on push |
-|- [ ] | 3D asset creation | **Blender** (free) | Build simple test scenes/props if needed |
-|[ ]| Version control | **Git + GitHub** (free) | Portfolio hosting for your capstone |
+- [ ] | 3D asset creation | **Blender** (free) | Build simple test scenes/props if needed |
+- [ ] | Version control | **Git + GitHub** (free) | Portfolio hosting for your capstone |
 
 ---
 
