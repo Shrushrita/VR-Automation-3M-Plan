@@ -24,7 +24,7 @@ across engine-level (Unity/Unreal), device-level (Android/Quest), and browser-le
 | No-headset VR testing | **Unity XR Device Simulator** | Simulates headset + controllers with mouse/keyboard in-editor |
 | WebXR framework | **A-Frame** | Open-source, runs in any browser, no install |
 | WebXR emulator | **Immersive Web Emulator** (Chrome/Edge extension, by Meta) | Simulates a headset in devtools - no hardware needed |
-| Web automation | **Playwright** | Automates browser-based WebXR/A-Frame scenes |
+| ☑️ Web automation | **Playwright** | Automates browser-based WebXR/A-Frame scenes |
 | Web automation (alt.) | **Selenium** | Web-automation |
 | Mobile/device automation | **Appium** | Drives Android-based headsets (Quest runs Android) via UIAutomator2/Espresso drivers |
 | Image-based automation | **Airtest Project** (NetEase) | Screenshot/image-recognition-based automation - works even when there's no accessible UI tree, common in VR |
