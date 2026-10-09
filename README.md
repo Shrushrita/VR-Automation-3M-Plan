@@ -14,18 +14,18 @@ across engine-level (Unity/Unreal), device-level (Android/Quest), and browser-le
 
 ---
 
-## Free Platforms & Tools You'll Use (all $0)
+## Free Platforms & Tools You'll Use (all Free)
 
-|  | Category | Tool | Notes |
-|---|---|---|---|
-|- [ ] | Game engine | **Unity Personal** | Free tier, includes XR Interaction Toolkit |
-|- [ ] | Game engine (alt.) | **Godot 4 + Godot XR Tools** | Fully open-source alternative if avoiding Unity's ToS |
-|- [ ] | Game engine (alt.) | **Unreal Engine** | Free, VR template included |
-|- [ ] | No-headset VR testing | **Unity XR Device Simulator** | Simulates headset + controllers with mouse/keyboard in-editor |
-|- [ ] | WebXR framework | **A-Frame** | Open-source, runs in any browser, no install |
-|- [ ] | WebXR emulator | **Immersive Web Emulator** (Chrome/Edge extension, by Meta) | Simulates a headset in devtools - no hardware needed |
-|- [ ] | Web automation | **Playwright** | Automates browser-based WebXR/A-Frame scenes |
-|- [ ] | Web automation (alt.) | **Selenium** | Web-automation |
+| Category | Tool | Notes |
+|---|---|---|
+| Game engine | **Unity Personal** | Free tier, includes XR Interaction Toolkit |
+| Game engine (alt.) | **Godot 4 + Godot XR Tools** | Fully open-source alternative if avoiding Unity's ToS |
+| Game engine (alt.) | **Unreal Engine** | Free, VR template included |
+| No-headset VR testing | **Unity XR Device Simulator** | Simulates headset + controllers with mouse/keyboard in-editor |
+| WebXR framework | **A-Frame** | Open-source, runs in any browser, no install |
+| WebXR emulator | **Immersive Web Emulator** (Chrome/Edge extension, by Meta) | Simulates a headset in devtools - no hardware needed |
+| Web automation | **Playwright** | Automates browser-based WebXR/A-Frame scenes |
+| Web automation (alt.) | **Selenium** | Web-automation |
 | Mobile/device automation | **Appium** | Drives Android-based headsets (Quest runs Android) via UIAutomator2/Espresso drivers |
 | Image-based automation | **Airtest Project** (NetEase) | Screenshot/image-recognition-based automation - works even when there's no accessible UI tree, common in VR |
 | Conformance/standards testing | **OpenXR SDK + Conformance Test Suite** (Khronos, free, open-source) | Industry-standard XR API test suite |
