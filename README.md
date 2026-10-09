@@ -42,7 +42,7 @@ across engine-level (Unity/Unreal), device-level (Android/Quest), and browser-le
 **Theme:** Understand VR fundamentals, testing fundamentals, and get comfortable building/running a basic VR scene without a headset.
 
 ### Week 1: Testing fundamentals + VR concepts
-- Automation testing fundamentals refresher: test pyramid, functional vs. non-functional testing, flaky tests, test data management (skip as QA background)
+- [x] Automation testing fundamentals refresher: test pyramid, functional vs. non-functional testing, flaky tests, test data management (skip as QA background)
 - VR-specific concepts: 6DOF vs 3DOF, degrees of freedom, locomotion types (teleport, smooth), UI raycasting/pointer interaction, comfort/motion sickness as a *testable* quality attribute
 - **Task:** Install Unity Personal + XR Interaction Toolkit. Open a sample VR scene and interact with it using the **XR Device Simulator** (no headset).
 
